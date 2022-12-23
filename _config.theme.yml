@@ -30,10 +30,10 @@ site:
     enabled: true
     width: 40
     height: 40
-    url: ../images/logo.png
+    url: ../../../../public/images/profile.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>Board List</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
@@ -83,15 +83,15 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
-  wechatpay:
-    qrcode: images/donate/wechatpayimg.png
-    title: 微信支付
+  #wechatpay:
+    #qrcode: images/donate/wechatpayimg.png
+    #title: 微信支付
   # 支付宝打赏
-  alipay: 
-    qrcode: images/donate/alipayimg.png 
-    title: 支付宝
+  #alipay: 
+    #qrcode: images/donate/alipayimg.png 
+    #title: 支付宝
 
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
@@ -184,22 +184,22 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/profile.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Isac Rodriguez
-  author_title: Dev.
-  author_description: I test in production
+  author_title: Developer & Research Analytics
+  author_description: I test in Production
   location: NYC
-  follow: https://github.com/cofess
+  follow: https://github.com/isacrodriguez
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/isacrodriguez
+      #weibo: http://weibo.com/cofess
+      twitter: https://twitter.com/isachard
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
+      #behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
@@ -209,15 +209,14 @@ profile:
     Javascript: ★★★☆☆
     HTML+CSS: ★★★☆☆
     Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    Python & Pandas: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/isacrodriguez
+    Blog: http://blog.isacrodriguez.com
+    #微博: http://weibo.com/cofess
+    #花瓣: http://huaban.com/cofess
+    #Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
     - 前端
@@ -231,6 +230,6 @@ profile:
       link: http://www.example.com
       date: 2016
   # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  #projects:
+    #cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    #cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
