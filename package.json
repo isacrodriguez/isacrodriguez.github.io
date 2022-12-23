@@ -22,5 +22,14 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3"
-  }
+  },
+
+  "scripts": {
+      "theme": "cat ./_config.theme.yml > ./themes/hexo-theme-pure/_config.yml ",
+      "build": "npm run theme && hexo generate",
+      "clean": "hexo clean",
+      "deploy": "npm run theme && hexo deploy",
+      "server": "npm run theme && hexo server"
+    }
+
 }
