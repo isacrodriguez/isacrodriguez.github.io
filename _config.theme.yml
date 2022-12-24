@@ -30,7 +30,7 @@ site:
     enabled: true
     width: 40
     height: 40
-    url: images/profile.png
+    url: images/avatar.jpg
   title: Hexo # 页面title
   favicon: /favicon.png
   board: <p>Board List</p> # 站点公告
@@ -184,7 +184,7 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/profile.png
+  avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Isac Rodriguez
   author_title: Developer & Research Analytics
